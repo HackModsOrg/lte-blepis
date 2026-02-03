@@ -21223,7 +21223,8 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 176.53 260.35 180)
+		(at 176.53 260.35 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21231,7 +21232,7 @@
 		(dnp no)
 		(uuid "999d6987-4787-4584-ad1d-518f5a2b7846")
 		(property "Reference" "R20"
-			(at 172.72 261.62 0)
+			(at 180.34 261.62 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -21239,7 +21240,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 172.72 259.08 0)
+			(at 180.34 259.08 0)
 			(effects
 				(font
 					(size 1.016 1.016)
