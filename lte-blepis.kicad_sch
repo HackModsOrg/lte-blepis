@@ -8728,16 +8728,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 210.82) (xy 31.75 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fec4baf-34e9-479e-85e2-ba3ba1fdcafe")
-	)
-	(wire
-		(pts
 			(xy 36.83 90.17) (xy 36.83 88.9)
 		)
 		(stroke
@@ -17415,74 +17405,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 30.48 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e31cff5-9a64-4377-bea2-c499a7e017bc")
-		(property "Reference" "#PWR034"
-			(at 30.48 217.17 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 215.9 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c78a67b1-b906-4a1b-87dd-fe0156703cbc")
-		)
-		(instances
-			(project "lte-blepis"
-				(path "/aa18ae61-e3ae-45ea-87bb-2047657064f6"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 151.13 21.59 0)
 		(unit 1)
@@ -25707,73 +25629,6 @@
 			(project "lora-blepis"
 				(path "/aa18ae61-e3ae-45ea-87bb-2047657064f6"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 210.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3b4693f-f906-44d8-9211-f388b239874a")
-		(property "Reference" "TP4"
-			(at 36.83 210.82 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 36.83 212.0899 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 31.75 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 31.75 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92e45323-fb88-4bf0-bf5c-23c0c9ac51a3")
-		)
-		(instances
-			(project "lte-blepis"
-				(path "/aa18ae61-e3ae-45ea-87bb-2047657064f6"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
